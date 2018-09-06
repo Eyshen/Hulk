@@ -7,33 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DC611BCA7D50033BF3FD872 /* libPods-Hulk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD7C38DD0BED2371CC35831 /* libPods-Hulk.a */; };
 		523139FC20A2C46700824890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523139FB20A2C46700824890 /* AppDelegate.m */; };
 		523139FF20A2C46700824890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523139FE20A2C46700824890 /* ViewController.m */; };
 		52313A0220A2C46700824890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52313A0020A2C46700824890 /* Main.storyboard */; };
 		52313A0420A2C46800824890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52313A0320A2C46800824890 /* Assets.xcassets */; };
 		52313A0720A2C46800824890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52313A0520A2C46800824890 /* LaunchScreen.storyboard */; };
 		52313A0A20A2C46800824890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52313A0920A2C46800824890 /* main.m */; };
-		52313A1420A2C46800824890 /* HulkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52313A1320A2C46800824890 /* HulkTests.m */; };
-		52313A1F20A2C46800824890 /* HulkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52313A1E20A2C46800824890 /* HulkUITests.m */; };
+		524F3F80210096A0003068E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524F3F7F210096A0003068E4 /* Assets.xcassets */; };
+		524F3F83210096A0003068E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524F3F81210096A0003068E4 /* LaunchScreen.storyboard */; };
+		524F3F86210096A0003068E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524F3F85210096A0003068E4 /* main.m */; };
+		52537DAA20A2ED70008A5CEA /* liblottie-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52537DA920A2ED70008A5CEA /* liblottie-ios.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		52537DAC20A303DB008A5CEA /* LDPMLGInstallation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52537DAB20A303DB008A5CEA /* LDPMLGInstallation.bundle */; };
+		52E3912520A2EAAD008B548D /* launchScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 52E3912420A2EAAC008B548D /* launchScreen.json */; };
+		E0AD9A09B286711925F1A14A /* libPods-Hulk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD7C38DD0BED2371CC35831 /* libPods-Hulk.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		52313A1020A2C46800824890 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 523139EF20A2C46700824890 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 523139F620A2C46700824890;
-			remoteInfo = Hulk;
-		};
-		52313A1B20A2C46800824890 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 523139EF20A2C46700824890 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 523139F620A2C46700824890;
-			remoteInfo = Hulk;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		523139F720A2C46700824890 /* Hulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hulk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,12 +33,14 @@
 		52313A0620A2C46800824890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52313A0820A2C46800824890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52313A0920A2C46800824890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52313A0F20A2C46800824890 /* HulkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HulkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52313A1320A2C46800824890 /* HulkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HulkTests.m; sourceTree = "<group>"; };
-		52313A1520A2C46800824890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52313A1A20A2C46800824890 /* HulkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HulkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52313A1E20A2C46800824890 /* HulkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HulkUITests.m; sourceTree = "<group>"; };
-		52313A2020A2C46800824890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524F3F742100969E003068E4 /* Hulk-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hulk-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524F3F7F210096A0003068E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524F3F82210096A0003068E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524F3F84210096A0003068E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524F3F85210096A0003068E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52537DA920A2ED70008A5CEA /* liblottie-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblottie-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52537DAB20A303DB008A5CEA /* LDPMLGInstallation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LDPMLGInstallation.bundle; sourceTree = "<group>"; };
+		52E3912420A2EAAC008B548D /* launchScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launchScreen.json; sourceTree = "<group>"; };
 		69E096742577ACC699DA1457 /* Pods-Hulk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hulk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hulk/Pods-Hulk.debug.xcconfig"; sourceTree = "<group>"; };
 		BBD7C38DD0BED2371CC35831 /* libPods-Hulk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hulk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DB16955CD2687F84215F24 /* Pods-Hulk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hulk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hulk/Pods-Hulk.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,18 +51,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC611BCA7D50033BF3FD872 /* libPods-Hulk.a in Frameworks */,
+				52537DAA20A2ED70008A5CEA /* liblottie-ios.a in Frameworks */,
+				E0AD9A09B286711925F1A14A /* libPods-Hulk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52313A0C20A2C46800824890 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52313A1720A2C46800824890 /* Frameworks */ = {
+		524F3F712100969E003068E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,8 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				523139F920A2C46700824890 /* Hulk */,
-				52313A1220A2C46800824890 /* HulkTests */,
-				52313A1D20A2C46800824890 /* HulkUITests */,
+				524F3F752100969E003068E4 /* Hulk-test */,
 				523139F820A2C46700824890 /* Products */,
 				769714CCE99B1733667DE079 /* Pods */,
 				56806F8965CD0845B12C27F6 /* Frameworks */,
@@ -99,8 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				523139F720A2C46700824890 /* Hulk.app */,
-				52313A0F20A2C46800824890 /* HulkTests.xctest */,
-				52313A1A20A2C46800824890 /* HulkUITests.xctest */,
+				524F3F742100969E003068E4 /* Hulk-test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +93,8 @@
 				523139FB20A2C46700824890 /* AppDelegate.m */,
 				523139FD20A2C46700824890 /* ViewController.h */,
 				523139FE20A2C46700824890 /* ViewController.m */,
+				52537DAB20A303DB008A5CEA /* LDPMLGInstallation.bundle */,
+				52E3912420A2EAAC008B548D /* launchScreen.json */,
 				52313A0020A2C46700824890 /* Main.storyboard */,
 				52313A0320A2C46800824890 /* Assets.xcassets */,
 				52313A0520A2C46800824890 /* LaunchScreen.storyboard */,
@@ -121,27 +104,29 @@
 			path = Hulk;
 			sourceTree = "<group>";
 		};
-		52313A1220A2C46800824890 /* HulkTests */ = {
+		524F3F752100969E003068E4 /* Hulk-test */ = {
 			isa = PBXGroup;
 			children = (
-				52313A1320A2C46800824890 /* HulkTests.m */,
-				52313A1520A2C46800824890 /* Info.plist */,
+				524F3F7F210096A0003068E4 /* Assets.xcassets */,
+				524F3F81210096A0003068E4 /* LaunchScreen.storyboard */,
+				524F3F84210096A0003068E4 /* Info.plist */,
+				524F3F8A210096D5003068E4 /* Supporting Files */,
 			);
-			path = HulkTests;
+			path = "Hulk-test";
 			sourceTree = "<group>";
 		};
-		52313A1D20A2C46800824890 /* HulkUITests */ = {
+		524F3F8A210096D5003068E4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				52313A1E20A2C46800824890 /* HulkUITests.m */,
-				52313A2020A2C46800824890 /* Info.plist */,
+				524F3F85210096A0003068E4 /* main.m */,
 			);
-			path = HulkUITests;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		56806F8965CD0845B12C27F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52537DA920A2ED70008A5CEA /* liblottie-ios.a */,
 				BBD7C38DD0BED2371CC35831 /* libPods-Hulk.a */,
 			);
 			name = Frameworks;
@@ -177,41 +162,22 @@
 			productReference = 523139F720A2C46700824890 /* Hulk.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52313A0E20A2C46800824890 /* HulkTests */ = {
+		524F3F732100969E003068E4 /* Hulk-test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52313A2620A2C46800824890 /* Build configuration list for PBXNativeTarget "HulkTests" */;
+			buildConfigurationList = 524F3F87210096A0003068E4 /* Build configuration list for PBXNativeTarget "Hulk-test" */;
 			buildPhases = (
-				52313A0B20A2C46800824890 /* Sources */,
-				52313A0C20A2C46800824890 /* Frameworks */,
-				52313A0D20A2C46800824890 /* Resources */,
+				524F3F702100969E003068E4 /* Sources */,
+				524F3F712100969E003068E4 /* Frameworks */,
+				524F3F722100969E003068E4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				52313A1120A2C46800824890 /* PBXTargetDependency */,
 			);
-			name = HulkTests;
-			productName = HulkTests;
-			productReference = 52313A0F20A2C46800824890 /* HulkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		52313A1920A2C46800824890 /* HulkUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52313A2920A2C46800824890 /* Build configuration list for PBXNativeTarget "HulkUITests" */;
-			buildPhases = (
-				52313A1620A2C46800824890 /* Sources */,
-				52313A1720A2C46800824890 /* Frameworks */,
-				52313A1820A2C46800824890 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52313A1C20A2C46800824890 /* PBXTargetDependency */,
-			);
-			name = HulkUITests;
-			productName = HulkUITests;
-			productReference = 52313A1A20A2C46800824890 /* HulkUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "Hulk-test";
+			productName = "Hulk-test";
+			productReference = 524F3F742100969E003068E4 /* Hulk-test.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -225,13 +191,8 @@
 					523139F620A2C46700824890 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					52313A0E20A2C46800824890 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 523139F620A2C46700824890;
-					};
-					52313A1920A2C46800824890 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 523139F620A2C46700824890;
+					524F3F732100969E003068E4 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
@@ -249,8 +210,7 @@
 			projectRoot = "";
 			targets = (
 				523139F620A2C46700824890 /* Hulk */,
-				52313A0E20A2C46800824890 /* HulkTests */,
-				52313A1920A2C46800824890 /* HulkUITests */,
+				524F3F732100969E003068E4 /* Hulk-test */,
 			);
 		};
 /* End PBXProject section */
@@ -260,23 +220,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E3912520A2EAAD008B548D /* launchScreen.json in Resources */,
 				52313A0720A2C46800824890 /* LaunchScreen.storyboard in Resources */,
 				52313A0420A2C46800824890 /* Assets.xcassets in Resources */,
 				52313A0220A2C46700824890 /* Main.storyboard in Resources */,
+				52537DAC20A303DB008A5CEA /* LDPMLGInstallation.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52313A0D20A2C46800824890 /* Resources */ = {
+		524F3F722100969E003068E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52313A1820A2C46800824890 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				524F3F83210096A0003068E4 /* LaunchScreen.storyboard in Resources */,
+				524F3F80210096A0003068E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,36 +271,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52313A0B20A2C46800824890 /* Sources */ = {
+		524F3F702100969E003068E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52313A1420A2C46800824890 /* HulkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52313A1620A2C46800824890 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52313A1F20A2C46800824890 /* HulkUITests.m in Sources */,
+				524F3F86210096A0003068E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		52313A1120A2C46800824890 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 523139F620A2C46700824890 /* Hulk */;
-			targetProxy = 52313A1020A2C46800824890 /* PBXContainerItemProxy */;
-		};
-		52313A1C20A2C46800824890 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 523139F620A2C46700824890 /* Hulk */;
-			targetProxy = 52313A1B20A2C46800824890 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52313A0020A2C46700824890 /* Main.storyboard */ = {
@@ -358,6 +294,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				52313A0620A2C46800824890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		524F3F81210096A0003068E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524F3F82210096A0003068E4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -483,7 +427,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PFJAGDKXS;
 				INFOPLIST_FILE = Hulk/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eyshen.Hulk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,68 +445,49 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PFJAGDKXS;
 				INFOPLIST_FILE = Hulk/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eyshen.Hulk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		52313A2720A2C46800824890 /* Debug */ = {
+		524F3F88210096A0003068E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9PFJAGDKXS;
-				INFOPLIST_FILE = HulkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eyshen.HulkTests;
+				DEVELOPMENT_TEAM = 88C5DMXGWP;
+				INFOPLIST_FILE = "Hulk-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eyshen.hulk.test.Hulk-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hulk.app/Hulk";
 			};
 			name = Debug;
 		};
-		52313A2820A2C46800824890 /* Release */ = {
+		524F3F89210096A0003068E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9PFJAGDKXS;
-				INFOPLIST_FILE = HulkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eyshen.HulkTests;
+				DEVELOPMENT_TEAM = 88C5DMXGWP;
+				INFOPLIST_FILE = "Hulk-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eyshen.hulk.test.Hulk-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hulk.app/Hulk";
-			};
-			name = Release;
-		};
-		52313A2A20A2C46800824890 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9PFJAGDKXS;
-				INFOPLIST_FILE = HulkUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eyshen.HulkUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Hulk;
-			};
-			name = Debug;
-		};
-		52313A2B20A2C46800824890 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9PFJAGDKXS;
-				INFOPLIST_FILE = HulkUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eyshen.HulkUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Hulk;
 			};
 			name = Release;
 		};
@@ -584,20 +512,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52313A2620A2C46800824890 /* Build configuration list for PBXNativeTarget "HulkTests" */ = {
+		524F3F87210096A0003068E4 /* Build configuration list for PBXNativeTarget "Hulk-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52313A2720A2C46800824890 /* Debug */,
-				52313A2820A2C46800824890 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52313A2920A2C46800824890 /* Build configuration list for PBXNativeTarget "HulkUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52313A2A20A2C46800824890 /* Debug */,
-				52313A2B20A2C46800824890 /* Release */,
+				524F3F88210096A0003068E4 /* Debug */,
+				524F3F89210096A0003068E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

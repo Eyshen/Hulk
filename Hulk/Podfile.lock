@@ -1,16 +1,65 @@
 PODS:
-  - lottie-ios (2.1.5)
+  - Masonry (1.0.1)
+  - Reachability (3.2)
+  - WJCommon (1.0):
+    - WJCommon/Core (= 1.0)
+    - WJCommon/NetworkService (= 1.0)
+    - WJCommon/SwipeBack (= 1.0)
+    - WJCommon/UI (= 1.0)
+    - WJCommon/Utils (= 1.0)
+    - WJJSON
+    - WJLoggingAPI
+  - WJCommon/Core (1.0):
+    - WJJSON
+    - WJLoggingAPI
+  - WJCommon/NetworkService (1.0):
+    - Reachability (= 3.2)
+    - WJCommon/Core
+    - WJJSON
+    - WJLoggingAPI
+  - WJCommon/SwipeBack (1.0):
+    - WJJSON
+    - WJLoggingAPI
+  - WJCommon/UI (1.0):
+    - Masonry (= 1.0.1)
+    - WJCommon/Core
+    - WJCommon/SwipeBack
+    - WJCommon/Utils
+    - WJJSON
+    - WJLoggingAPI
+    - WJUIRoutable/API
+  - WJCommon/Utils (1.0):
+    - WJJSON
+    - WJLoggingAPI
+  - WJConfig (1.0)
+  - WJJSON (1.0)
+  - WJLoggingAPI (1.0)
+  - WJUIRoutable/API (2.0):
+    - WJConfig
 
 DEPENDENCIES:
-  - lottie-ios (~> 2.1.5)
+  - WJCommon
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - lottie-ios
+    - Masonry
+    - Reachability
+  https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git:
+    - WJCommon
+    - WJConfig
+    - WJJSON
+    - WJLoggingAPI
+    - WJUIRoutable
 
 SPEC CHECKSUMS:
-  lottie-ios: 836cdbba92f62f3c6a00e37a4ce485321fe317cf
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  WJCommon: a8cdeb881e2c6a64022e6e22f3f0952ef5f33862
+  WJConfig: 0e7e9046e1a3b722aacac6d5c47c5948c50f6028
+  WJJSON: 0652801a616389ccc111e7394de7f30424f2d520
+  WJLoggingAPI: 1560fbed399a108feee39b3425abcc9f297efb57
+  WJUIRoutable: 09cf9808177446ca3d8ae66dc8c8e708639c6d78
 
-PODFILE CHECKSUM: a0ca9910da8e9f1dd20bea28056d22f9273a279e
+PODFILE CHECKSUM: 8c7cc28d20b19ea94ad2ae808a471701ee844be1
 
 COCOAPODS: 1.5.0

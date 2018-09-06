@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/lottie-ios"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/lottie-ios"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"lottie-ios" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/WJCommon" "${PODS_ROOT}/Headers/Public/WJConfig" "${PODS_ROOT}/Headers/Public/WJJSON" "${PODS_ROOT}/Headers/Public/WJLoggingAPI" "${PODS_ROOT}/Headers/Public/WJUIRoutable"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/Reachability" "${PODS_CONFIGURATION_BUILD_DIR}/WJCommon" "${PODS_CONFIGURATION_BUILD_DIR}/WJConfig" "${PODS_CONFIGURATION_BUILD_DIR}/WJJSON" "${PODS_CONFIGURATION_BUILD_DIR}/WJLoggingAPI" "${PODS_CONFIGURATION_BUILD_DIR}/WJUIRoutable"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/Reachability" -isystem "${PODS_ROOT}/Headers/Public/WJCommon" -isystem "${PODS_ROOT}/Headers/Public/WJConfig" -isystem "${PODS_ROOT}/Headers/Public/WJJSON" -isystem "${PODS_ROOT}/Headers/Public/WJLoggingAPI" -isystem "${PODS_ROOT}/Headers/Public/WJUIRoutable"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Masonry" -l"Reachability" -l"WJCommon" -l"WJConfig" -l"WJJSON" -l"WJLoggingAPI" -l"WJUIRoutable" -framework "CoreGraphics" -framework "Foundation" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
