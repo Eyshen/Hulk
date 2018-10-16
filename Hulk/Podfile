@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
 
-platform :ios, '7.0'
+platform :ios, '8.0'
 
 #use_frameworks!
 
@@ -9,8 +9,46 @@ inhibit_all_warnings!
 
 target :'Hulk' do
 
+pod 'WJAppContext' , '1.0'
 
-pod 'WJCommon'
+pod 'WJCommon' , '1.0'
+
+pod 'WJWebViewJavascriptBridge' , '1.0'
+
+pod 'WJHttpEngineAF', '1.0'
+
+pod 'WJHttpEngineAPI', '1.0'
+
+pod 'WJLoggingAPI', '1.0'
+
+pod 'UICKeyChainStore' , '2.1.0'
+
+#pod 'WJCacheUserDefaults' , '1.0'
+
+pod 'WJCacheKeychain' , '1.0'
+
+
+#######
+
+pod 'YYCache', '1.0.3'
+
+pod 'YYText', '1.0.7'
+
+pod 'Bugly' , '2.4.6'
+
+pod 'SSZipArchive' , '1.6.2'
+
+pod 'KVOController' , '1.1.0'
+
+pod 'SDWebImage/Core', '3.7.5'
+
+pod 'KKGestureLockView', '1.0.0'
+
+pod 'SVProgressHUD', '2.0.3'
+
+pod 'ZYCornerRadius', '1.0.2'
 
 
 end
+
+

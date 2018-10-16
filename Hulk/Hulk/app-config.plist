@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WJAppContext</key>
+	<dict>
+		<key>modules</key>
+		<array>
+			<string>RootVCModule</string>
+		</array>
+		<key>sessionDataFormatter</key>
+		<string>UserSessionFormatter</string>
+	</dict>
+	<key>WJCacheAPI</key>
+	<dict>
+		<key>keychainService</key>
+		<string>HulkService</string>
+		<key>keychainAccessGroup</key>
+		<string>XXXXXXXXXX.com.jucaicat.Store</string>
+		<key>caches</key>
+		<array>
+			<string>HulkDiskCache</string>
+			<string>HulkMemoryCache</string>
+		</array>
+	</dict>
+	<key>WJWebViewJavascriptBridge</key>
+	<dict>
+		<key>allowSchemes</key>
+		<array>
+			<string>hulk</string>
+		</array>
+		<key>allowHosts</key>
+		<array>
+			<string>192.168.10.10</string>
+		</array>
+	</dict>
+	<key>WJHttpEngineAPI</key>
+	<dict>
+		<key>filters</key>
+		<array>
+			<string>UserInvalidHttpFilter</string>
+		</array>
+		<key>timeoutDuration</key>
+		<integer>30</integer>
+		<key>defaultEngineName</key>
+		<string>AFWJHttpEngine</string>
+	</dict>
+	<key>WJUIRoutable</key>
+	<dict>
+		<key>defaultNavigationController</key>
+		<string>AppBaseNavigationController</string>
+	</dict>
+	<key>WJNotifyAPI</key>
+	<dict>
+		<key>notifyHandlers</key>
+		<array>
+			<string>RemoteNotifyHandler</string>
+			<string>LaunchLinkNotifyHandler</string>
+			<string>DeepLinkNotifyHandler</string>
+		</array>
+	</dict>
+</dict>
+</plist>

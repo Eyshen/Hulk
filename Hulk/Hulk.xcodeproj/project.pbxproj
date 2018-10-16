@@ -7,151 +7,268 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		523139FC20A2C46700824890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523139FB20A2C46700824890 /* AppDelegate.m */; };
-		523139FF20A2C46700824890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523139FE20A2C46700824890 /* ViewController.m */; };
-		52313A0220A2C46700824890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52313A0020A2C46700824890 /* Main.storyboard */; };
-		52313A0420A2C46800824890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52313A0320A2C46800824890 /* Assets.xcassets */; };
-		52313A0720A2C46800824890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52313A0520A2C46800824890 /* LaunchScreen.storyboard */; };
-		52313A0A20A2C46800824890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52313A0920A2C46800824890 /* main.m */; };
-		524F3F80210096A0003068E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524F3F7F210096A0003068E4 /* Assets.xcassets */; };
-		524F3F83210096A0003068E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524F3F81210096A0003068E4 /* LaunchScreen.storyboard */; };
-		524F3F86210096A0003068E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524F3F85210096A0003068E4 /* main.m */; };
-		52537DAA20A2ED70008A5CEA /* liblottie-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52537DA920A2ED70008A5CEA /* liblottie-ios.a */; settings = {ATTRIBUTES = (Required, ); }; };
-		52537DAC20A303DB008A5CEA /* LDPMLGInstallation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52537DAB20A303DB008A5CEA /* LDPMLGInstallation.bundle */; };
-		52E3912520A2EAAD008B548D /* launchScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 52E3912420A2EAAC008B548D /* launchScreen.json */; };
-		E0AD9A09B286711925F1A14A /* libPods-Hulk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD7C38DD0BED2371CC35831 /* libPods-Hulk.a */; };
+		25FA12DE229A5D21652891E5 /* libPods-Hulk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF309F5265852827909F730 /* libPods-Hulk.a */; };
+		520AFFE421723BE400DAAD2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520AFFE321723BE400DAAD2C /* AppDelegate.m */; };
+		520AFFEC21723BE500DAAD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520AFFEB21723BE500DAAD2C /* Assets.xcassets */; };
+		520AFFEF21723BE500DAAD2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520AFFED21723BE500DAAD2C /* LaunchScreen.storyboard */; };
+		520AFFF221723BE500DAAD2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520AFFF121723BE500DAAD2C /* main.m */; };
+		528D91E82175DD2000FA45A1 /* WJCacheUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D91E62175DD1F00FA45A1 /* WJCacheUserDefaults.m */; };
+		528D91EA2175E64000FA45A1 /* app-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 528D91E92175E63F00FA45A1 /* app-config.plist */; };
+		528D91F72175ECCD00FA45A1 /* UIDevice+WJUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D91F32175ECCD00FA45A1 /* UIDevice+WJUDID.m */; };
+		528D91F82175ECCD00FA45A1 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D91F42175ECCD00FA45A1 /* UIImage+Extension.m */; };
+		528D92082175EDA800FA45A1 /* AppBaseHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D91FA2175EDA800FA45A1 /* AppBaseHttpResponse.m */; };
+		528D92092175EDA800FA45A1 /* AppBaseHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D91FC2175EDA800FA45A1 /* AppBaseHttpRequest.m */; };
+		528D920A2175EDA800FA45A1 /* AppBaseVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D91FF2175EDA800FA45A1 /* AppBaseVO.m */; };
+		528D920B2175EDA800FA45A1 /* Hulk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 528D92032175EDA800FA45A1 /* Hulk.xcdatamodeld */; };
+		528D920C2175EDA800FA45A1 /* AppBaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D92052175EDA800FA45A1 /* AppBaseDTO.m */; };
+		528D921B2175EEA300FA45A1 /* AppBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D921A2175EEA300FA45A1 /* AppBaseViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		523139F720A2C46700824890 /* Hulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hulk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		523139FA20A2C46700824890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		523139FB20A2C46700824890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		523139FD20A2C46700824890 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		523139FE20A2C46700824890 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		52313A0120A2C46700824890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52313A0320A2C46800824890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52313A0620A2C46800824890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		52313A0820A2C46800824890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52313A0920A2C46800824890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		524F3F742100969E003068E4 /* Hulk-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hulk-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		524F3F7F210096A0003068E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		524F3F82210096A0003068E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		524F3F84210096A0003068E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		524F3F85210096A0003068E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52537DA920A2ED70008A5CEA /* liblottie-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblottie-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52537DAB20A303DB008A5CEA /* LDPMLGInstallation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LDPMLGInstallation.bundle; sourceTree = "<group>"; };
-		52E3912420A2EAAC008B548D /* launchScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launchScreen.json; sourceTree = "<group>"; };
-		69E096742577ACC699DA1457 /* Pods-Hulk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hulk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hulk/Pods-Hulk.debug.xcconfig"; sourceTree = "<group>"; };
-		BBD7C38DD0BED2371CC35831 /* libPods-Hulk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hulk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0DB16955CD2687F84215F24 /* Pods-Hulk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hulk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hulk/Pods-Hulk.release.xcconfig"; sourceTree = "<group>"; };
+		03E4CB4A1A53473143A132BF /* Pods-Hulk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hulk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hulk/Pods-Hulk.release.xcconfig"; sourceTree = "<group>"; };
+		520AFFDF21723BE400DAAD2C /* Hulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hulk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520AFFE221723BE400DAAD2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		520AFFE321723BE400DAAD2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		520AFFEB21723BE500DAAD2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520AFFEE21723BE500DAAD2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520AFFF021723BE500DAAD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520AFFF121723BE500DAAD2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		520AFFF821723EEA00DAAD2C /* Hulk.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Hulk.entitlements; sourceTree = "<group>"; };
+		528D91E42175C08B00FA45A1 /* Hulk-app.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hulk-app.pch"; sourceTree = "<group>"; };
+		528D91E62175DD1F00FA45A1 /* WJCacheUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCacheUserDefaults.m; sourceTree = "<group>"; };
+		528D91E72175DD1F00FA45A1 /* WJCacheUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCacheUserDefaults.h; sourceTree = "<group>"; };
+		528D91E92175E63F00FA45A1 /* app-config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "app-config.plist"; sourceTree = "<group>"; };
+		528D91F32175ECCD00FA45A1 /* UIDevice+WJUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+WJUDID.m"; sourceTree = "<group>"; };
+		528D91F42175ECCD00FA45A1 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		528D91F52175ECCD00FA45A1 /* UIDevice+WJUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+WJUDID.h"; sourceTree = "<group>"; };
+		528D91F62175ECCD00FA45A1 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		528D91FA2175EDA800FA45A1 /* AppBaseHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseHttpResponse.m; sourceTree = "<group>"; };
+		528D91FB2175EDA800FA45A1 /* AppBaseVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseVO.h; sourceTree = "<group>"; };
+		528D91FC2175EDA800FA45A1 /* AppBaseHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseHttpRequest.m; sourceTree = "<group>"; };
+		528D91FD2175EDA800FA45A1 /* AppBaseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseDTO.h; sourceTree = "<group>"; };
+		528D91FF2175EDA800FA45A1 /* AppBaseVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseVO.m; sourceTree = "<group>"; };
+		528D92002175EDA800FA45A1 /* AppBaseHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseHttpResponse.h; sourceTree = "<group>"; };
+		528D92012175EDA800FA45A1 /* AppBaseHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseHttpRequest.h; sourceTree = "<group>"; };
+		528D92042175EDA800FA45A1 /* ios-jucaicat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ios-jucaicat.xcdatamodel"; sourceTree = "<group>"; };
+		528D92052175EDA800FA45A1 /* AppBaseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseDTO.m; sourceTree = "<group>"; };
+		528D92192175EEA300FA45A1 /* AppBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseViewModel.h; sourceTree = "<group>"; };
+		528D921A2175EEA300FA45A1 /* AppBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseViewModel.m; sourceTree = "<group>"; };
+		600E1C2BC613CFAE5AE2A9BC /* Pods-Hulk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hulk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hulk/Pods-Hulk.debug.xcconfig"; sourceTree = "<group>"; };
+		9CF309F5265852827909F730 /* libPods-Hulk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hulk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		523139F420A2C46700824890 /* Frameworks */ = {
+		520AFFDC21723BE400DAAD2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52537DAA20A2ED70008A5CEA /* liblottie-ios.a in Frameworks */,
-				E0AD9A09B286711925F1A14A /* libPods-Hulk.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		524F3F712100969E003068E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				25FA12DE229A5D21652891E5 /* libPods-Hulk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		523139EE20A2C46700824890 = {
+		2977E8039344B468CE04A2E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				523139F920A2C46700824890 /* Hulk */,
-				524F3F752100969E003068E4 /* Hulk-test */,
-				523139F820A2C46700824890 /* Products */,
-				769714CCE99B1733667DE079 /* Pods */,
-				56806F8965CD0845B12C27F6 /* Frameworks */,
+				600E1C2BC613CFAE5AE2A9BC /* Pods-Hulk.debug.xcconfig */,
+				03E4CB4A1A53473143A132BF /* Pods-Hulk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		520AFFD621723BE400DAAD2C = {
+			isa = PBXGroup;
+			children = (
+				520AFFE121723BE400DAAD2C /* Hulk */,
+				2977E8039344B468CE04A2E3 /* Pods */,
+				520AFFE021723BE400DAAD2C /* Products */,
+				F1B10360E9CB885B14F14FF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		523139F820A2C46700824890 /* Products */ = {
+		520AFFE021723BE400DAAD2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				523139F720A2C46700824890 /* Hulk.app */,
-				524F3F742100969E003068E4 /* Hulk-test.app */,
+				520AFFDF21723BE400DAAD2C /* Hulk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		523139F920A2C46700824890 /* Hulk */ = {
+		520AFFE121723BE400DAAD2C /* Hulk */ = {
 			isa = PBXGroup;
 			children = (
-				523139FA20A2C46700824890 /* AppDelegate.h */,
-				523139FB20A2C46700824890 /* AppDelegate.m */,
-				523139FD20A2C46700824890 /* ViewController.h */,
-				523139FE20A2C46700824890 /* ViewController.m */,
-				52537DAB20A303DB008A5CEA /* LDPMLGInstallation.bundle */,
-				52E3912420A2EAAC008B548D /* launchScreen.json */,
-				52313A0020A2C46700824890 /* Main.storyboard */,
-				52313A0320A2C46800824890 /* Assets.xcassets */,
-				52313A0520A2C46800824890 /* LaunchScreen.storyboard */,
-				52313A0820A2C46800824890 /* Info.plist */,
-				52313A0920A2C46800824890 /* main.m */,
+				520AFFF821723EEA00DAAD2C /* Hulk.entitlements */,
+				528D91DD2175B93100FA45A1 /* Vendors */,
+				528D91DE2175B93C00FA45A1 /* Common */,
+				528D91DF2175B94A00FA45A1 /* Macros */,
+				528D91E02175B99300FA45A1 /* Modules */,
+				520AFFE221723BE400DAAD2C /* AppDelegate.h */,
+				520AFFE321723BE400DAAD2C /* AppDelegate.m */,
+				520AFFF921723F4A00DAAD2C /* Resources */,
+				520AFFED21723BE500DAAD2C /* LaunchScreen.storyboard */,
+				520AFFF021723BE500DAAD2C /* Info.plist */,
+				528D91E92175E63F00FA45A1 /* app-config.plist */,
+				520AFFEB21723BE500DAAD2C /* Assets.xcassets */,
+				520AFFFB21723FBB00DAAD2C /* Supporting Files */,
 			);
 			path = Hulk;
 			sourceTree = "<group>";
 		};
-		524F3F752100969E003068E4 /* Hulk-test */ = {
+		520AFFF921723F4A00DAAD2C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				524F3F7F210096A0003068E4 /* Assets.xcassets */,
-				524F3F81210096A0003068E4 /* LaunchScreen.storyboard */,
-				524F3F84210096A0003068E4 /* Info.plist */,
-				524F3F8A210096D5003068E4 /* Supporting Files */,
+				520AFFFA21723F9900DAAD2C /* Images */,
 			);
-			path = "Hulk-test";
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		524F3F8A210096D5003068E4 /* Supporting Files */ = {
+		520AFFFA21723F9900DAAD2C /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				524F3F85210096A0003068E4 /* main.m */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		520AFFFB21723FBB00DAAD2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520AFFF121723BE500DAAD2C /* main.m */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		56806F8965CD0845B12C27F6 /* Frameworks */ = {
+		528D91DD2175B93100FA45A1 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				52537DA920A2ED70008A5CEA /* liblottie-ios.a */,
-				BBD7C38DD0BED2371CC35831 /* libPods-Hulk.a */,
+				528D91E52175DCF800FA45A1 /* WJCacheUserDefaults */,
 			);
-			name = Frameworks;
+			path = Vendors;
 			sourceTree = "<group>";
 		};
-		769714CCE99B1733667DE079 /* Pods */ = {
+		528D91DE2175B93C00FA45A1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				69E096742577ACC699DA1457 /* Pods-Hulk.debug.xcconfig */,
-				C0DB16955CD2687F84215F24 /* Pods-Hulk.release.xcconfig */,
+				528D91EB2175EBDC00FA45A1 /* Utils */,
+				528D91F22175ECCD00FA45A1 /* Categorys */,
+				528D91F92175EDA800FA45A1 /* Models */,
+				528D920E2175EE8800FA45A1 /* ViewControllers */,
+				528D92182175EEA300FA45A1 /* ViewModels */,
+				528D921C2175EEBF00FA45A1 /* Views */,
 			);
-			name = Pods;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		528D91DF2175B94A00FA45A1 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				528D91E42175C08B00FA45A1 /* Hulk-app.pch */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		528D91E02175B99300FA45A1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		528D91E52175DCF800FA45A1 /* WJCacheUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				528D91E72175DD1F00FA45A1 /* WJCacheUserDefaults.h */,
+				528D91E62175DD1F00FA45A1 /* WJCacheUserDefaults.m */,
+			);
+			path = WJCacheUserDefaults;
+			sourceTree = "<group>";
+		};
+		528D91EB2175EBDC00FA45A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		528D91F22175ECCD00FA45A1 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				528D91F52175ECCD00FA45A1 /* UIDevice+WJUDID.h */,
+				528D91F32175ECCD00FA45A1 /* UIDevice+WJUDID.m */,
+				528D91F62175ECCD00FA45A1 /* UIImage+Extension.h */,
+				528D91F42175ECCD00FA45A1 /* UIImage+Extension.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		528D91F92175EDA800FA45A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				528D92012175EDA800FA45A1 /* AppBaseHttpRequest.h */,
+				528D91FC2175EDA800FA45A1 /* AppBaseHttpRequest.m */,
+				528D92002175EDA800FA45A1 /* AppBaseHttpResponse.h */,
+				528D91FA2175EDA800FA45A1 /* AppBaseHttpResponse.m */,
+				528D91FB2175EDA800FA45A1 /* AppBaseVO.h */,
+				528D91FF2175EDA800FA45A1 /* AppBaseVO.m */,
+				528D91FD2175EDA800FA45A1 /* AppBaseDTO.h */,
+				528D92052175EDA800FA45A1 /* AppBaseDTO.m */,
+				528D92022175EDA800FA45A1 /* ManagedObjects */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		528D92022175EDA800FA45A1 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				528D92032175EDA800FA45A1 /* Hulk.xcdatamodeld */,
+			);
+			path = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		528D920E2175EE8800FA45A1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		528D92182175EEA300FA45A1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				528D92192175EEA300FA45A1 /* AppBaseViewModel.h */,
+				528D921A2175EEA300FA45A1 /* AppBaseViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		528D921C2175EEBF00FA45A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1B10360E9CB885B14F14FF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CF309F5265852827909F730 /* libPods-Hulk.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		523139F620A2C46700824890 /* Hulk */ = {
+		520AFFDE21723BE400DAAD2C /* Hulk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52313A2320A2C46800824890 /* Build configuration list for PBXNativeTarget "Hulk" */;
+			buildConfigurationList = 520AFFF521723BE500DAAD2C /* Build configuration list for PBXNativeTarget "Hulk" */;
 			buildPhases = (
-				88B5BAC9EFFE3775A82FBBE6 /* [CP] Check Pods Manifest.lock */,
-				523139F320A2C46700824890 /* Sources */,
-				523139F420A2C46700824890 /* Frameworks */,
-				523139F520A2C46700824890 /* Resources */,
+				935F11C88C072346DE47F2E3 /* [CP] Check Pods Manifest.lock */,
+				520AFFDB21723BE400DAAD2C /* Sources */,
+				520AFFDC21723BE400DAAD2C /* Frameworks */,
+				520AFFDD21723BE400DAAD2C /* Resources */,
+				09F06400FA6BAB607E116067 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,44 +276,24 @@
 			);
 			name = Hulk;
 			productName = Hulk;
-			productReference = 523139F720A2C46700824890 /* Hulk.app */;
-			productType = "com.apple.product-type.application";
-		};
-		524F3F732100969E003068E4 /* Hulk-test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 524F3F87210096A0003068E4 /* Build configuration list for PBXNativeTarget "Hulk-test" */;
-			buildPhases = (
-				524F3F702100969E003068E4 /* Sources */,
-				524F3F712100969E003068E4 /* Frameworks */,
-				524F3F722100969E003068E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Hulk-test";
-			productName = "Hulk-test";
-			productReference = 524F3F742100969E003068E4 /* Hulk-test.app */;
+			productReference = 520AFFDF21723BE400DAAD2C /* Hulk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		523139EF20A2C46700824890 /* Project object */ = {
+		520AFFD721723BE400DAAD2C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = Happiness;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "张学超";
 				TargetAttributes = {
-					523139F620A2C46700824890 = {
-						CreatedOnToolsVersion = 9.3;
-					};
-					524F3F732100969E003068E4 = {
+					520AFFDE21723BE400DAAD2C = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 523139F220A2C46700824890 /* Build configuration list for PBXProject "Hulk" */;
+			buildConfigurationList = 520AFFDA21723BE400DAAD2C /* Build configuration list for PBXProject "Hulk" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -204,43 +301,51 @@
 				en,
 				Base,
 			);
-			mainGroup = 523139EE20A2C46700824890;
-			productRefGroup = 523139F820A2C46700824890 /* Products */;
+			mainGroup = 520AFFD621723BE400DAAD2C;
+			productRefGroup = 520AFFE021723BE400DAAD2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				523139F620A2C46700824890 /* Hulk */,
-				524F3F732100969E003068E4 /* Hulk-test */,
+				520AFFDE21723BE400DAAD2C /* Hulk */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		523139F520A2C46700824890 /* Resources */ = {
+		520AFFDD21723BE400DAAD2C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E3912520A2EAAD008B548D /* launchScreen.json in Resources */,
-				52313A0720A2C46800824890 /* LaunchScreen.storyboard in Resources */,
-				52313A0420A2C46800824890 /* Assets.xcassets in Resources */,
-				52313A0220A2C46700824890 /* Main.storyboard in Resources */,
-				52537DAC20A303DB008A5CEA /* LDPMLGInstallation.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		524F3F722100969E003068E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				524F3F83210096A0003068E4 /* LaunchScreen.storyboard in Resources */,
-				524F3F80210096A0003068E4 /* Assets.xcassets in Resources */,
+				520AFFEF21723BE500DAAD2C /* LaunchScreen.storyboard in Resources */,
+				528D91EA2175E64000FA45A1 /* app-config.plist in Resources */,
+				520AFFEC21723BE500DAAD2C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		88B5BAC9EFFE3775A82FBBE6 /* [CP] Check Pods Manifest.lock */ = {
+		09F06400FA6BAB607E116067 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hulk/Pods-Hulk-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/WJWebViewJavascriptBridge/Classes/wjjsbridge.js",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wjjsbridge.js",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hulk/Pods-Hulk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		935F11C88C072346DE47F2E3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,47 +366,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		523139F320A2C46700824890 /* Sources */ = {
+		520AFFDB21723BE400DAAD2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523139FF20A2C46700824890 /* ViewController.m in Sources */,
-				52313A0A20A2C46800824890 /* main.m in Sources */,
-				523139FC20A2C46700824890 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		524F3F702100969E003068E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				524F3F86210096A0003068E4 /* main.m in Sources */,
+				528D92092175EDA800FA45A1 /* AppBaseHttpRequest.m in Sources */,
+				528D91F72175ECCD00FA45A1 /* UIDevice+WJUDID.m in Sources */,
+				528D91F82175ECCD00FA45A1 /* UIImage+Extension.m in Sources */,
+				528D920A2175EDA800FA45A1 /* AppBaseVO.m in Sources */,
+				528D91E82175DD2000FA45A1 /* WJCacheUserDefaults.m in Sources */,
+				528D92082175EDA800FA45A1 /* AppBaseHttpResponse.m in Sources */,
+				528D921B2175EEA300FA45A1 /* AppBaseViewModel.m in Sources */,
+				520AFFF221723BE500DAAD2C /* main.m in Sources */,
+				528D920B2175EDA800FA45A1 /* Hulk.xcdatamodeld in Sources */,
+				528D920C2175EDA800FA45A1 /* AppBaseDTO.m in Sources */,
+				520AFFE421723BE400DAAD2C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52313A0020A2C46700824890 /* Main.storyboard */ = {
+		520AFFED21723BE500DAAD2C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				52313A0120A2C46700824890 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		52313A0520A2C46800824890 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52313A0620A2C46800824890 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		524F3F81210096A0003068E4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				524F3F82210096A0003068E4 /* Base */,
+				520AFFEE21723BE500DAAD2C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -309,7 +398,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		52313A2120A2C46800824890 /* Debug */ = {
+		520AFFF321723BE500DAAD2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,14 +449,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		52313A2220A2C46800824890 /* Release */ = {
+		520AFFF421723BE500DAAD2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,80 +501,52 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		52313A2420A2C46800824890 /* Debug */ = {
+		520AFFF621723BE500DAAD2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69E096742577ACC699DA1457 /* Pods-Hulk.debug.xcconfig */;
+			baseConfigurationReference = 600E1C2BC613CFAE5AE2A9BC /* Pods-Hulk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9PFJAGDKXS;
+				DEVELOPMENT_TEAM = HC4HG48J6T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Hulk/Macros/Hulk-app.pch";
 				INFOPLIST_FILE = Hulk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eyshen.Hulk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eason.hulk.test.Hulk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		52313A2520A2C46800824890 /* Release */ = {
+		520AFFF721723BE500DAAD2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0DB16955CD2687F84215F24 /* Pods-Hulk.release.xcconfig */;
+			baseConfigurationReference = 03E4CB4A1A53473143A132BF /* Pods-Hulk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9PFJAGDKXS;
+				DEVELOPMENT_TEAM = HC4HG48J6T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Hulk/Macros/Hulk-app.pch";
 				INFOPLIST_FILE = Hulk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eyshen.Hulk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		524F3F88210096A0003068E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88C5DMXGWP;
-				INFOPLIST_FILE = "Hulk-test/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eyshen.hulk.test.Hulk-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		524F3F89210096A0003068E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88C5DMXGWP;
-				INFOPLIST_FILE = "Hulk-test/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eyshen.hulk.test.Hulk-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eason.hulk.test.Hulk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -494,34 +555,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		523139F220A2C46700824890 /* Build configuration list for PBXProject "Hulk" */ = {
+		520AFFDA21723BE400DAAD2C /* Build configuration list for PBXProject "Hulk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52313A2120A2C46800824890 /* Debug */,
-				52313A2220A2C46800824890 /* Release */,
+				520AFFF321723BE500DAAD2C /* Debug */,
+				520AFFF421723BE500DAAD2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52313A2320A2C46800824890 /* Build configuration list for PBXNativeTarget "Hulk" */ = {
+		520AFFF521723BE500DAAD2C /* Build configuration list for PBXNativeTarget "Hulk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52313A2420A2C46800824890 /* Debug */,
-				52313A2520A2C46800824890 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		524F3F87210096A0003068E4 /* Build configuration list for PBXNativeTarget "Hulk-test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				524F3F88210096A0003068E4 /* Debug */,
-				524F3F89210096A0003068E4 /* Release */,
+				520AFFF621723BE500DAAD2C /* Debug */,
+				520AFFF721723BE500DAAD2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		528D92032175EDA800FA45A1 /* Hulk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				528D92042175EDA800FA45A1 /* ios-jucaicat.xcdatamodel */,
+			);
+			currentVersion = 528D92042175EDA800FA45A1 /* ios-jucaicat.xcdatamodel */;
+			path = Hulk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 523139EF20A2C46700824890 /* Project object */;
+	rootObject = 520AFFD721723BE400DAAD2C /* Project object */;
 }

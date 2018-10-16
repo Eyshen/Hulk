@@ -1,0 +1,1 @@
+../../../WJAppContext/Classes/Session/IWJSession.h

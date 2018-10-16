@@ -1,0 +1,1 @@
+../../../WJWebViewJavascriptBridge/Classes/IWJAllowDomainData.h

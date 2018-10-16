@@ -15,7 +15,6 @@
 
 #import <Foundation/Foundation.h>
 #import "WJJSONGroupType.h"
-#import "IWJJSONObject.h"
 #import "NSObject+WJJSON.h"
 
 @interface NSObject (WJConverter)
