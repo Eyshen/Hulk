@@ -16,6 +16,10 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "BaseModuleMacros.h"
+#import "RootVCModuleMacros.h"
+#import "OtherModuleMacros.h"
+#import "UserModuleMacros.h"
 
 #endif
 

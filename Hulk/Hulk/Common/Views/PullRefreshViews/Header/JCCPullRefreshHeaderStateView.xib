@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JCCPullRefreshHeaderStateView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qqN-gq-QL1" customClass="JCCPullRefreshHeaderStateView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zwM-ll-CMj">
+                    <rect key="frame" x="0.0" y="12" width="320" height="38"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="refresh-loading-state-normal" translatesAutoresizingMaskIntoConstraints="NO" id="e3O-f3-Pzt">
+                            <rect key="frame" x="135" y="0.0" width="50" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="TbP-bf-Cwb"/>
+                                <constraint firstAttribute="width" constant="50" id="WwK-Cs-5rq"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="没事儿常来赚钱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYv-z0-94u">
+                            <rect key="frame" x="0.0" y="26" width="320" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="bRM-07-eSc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="0Dd-Eh-t3p"/>
+                        <constraint firstItem="hYv-z0-94u" firstAttribute="leading" secondItem="zwM-ll-CMj" secondAttribute="leading" id="3E0-KJ-03w"/>
+                        <constraint firstItem="e3O-f3-Pzt" firstAttribute="centerX" secondItem="zwM-ll-CMj" secondAttribute="centerX" id="8Ev-v0-3Ea"/>
+                        <constraint firstAttribute="bottom" secondItem="hYv-z0-94u" secondAttribute="bottom" id="CY4-aT-9QZ"/>
+                        <constraint firstAttribute="trailing" secondItem="hYv-z0-94u" secondAttribute="trailing" id="cWD-6z-30U"/>
+                        <constraint firstItem="e3O-f3-Pzt" firstAttribute="top" secondItem="zwM-ll-CMj" secondAttribute="top" id="jpO-AB-7fw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zwM-ll-CMj" secondAttribute="bottom" constant="10" id="4M8-z6-Al2"/>
+                <constraint firstItem="zwM-ll-CMj" firstAttribute="leading" secondItem="qqN-gq-QL1" secondAttribute="leading" id="Bf9-gm-3mV"/>
+                <constraint firstAttribute="trailing" secondItem="zwM-ll-CMj" secondAttribute="trailing" id="HFK-jI-l34"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="refImgView" destination="e3O-f3-Pzt" id="ohj-fL-nAG"/>
+                <outlet property="refLabel" destination="hYv-z0-94u" id="Ucq-Vf-hcj"/>
+            </connections>
+            <point key="canvasLocation" x="-114" y="-182"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="refresh-loading-state-normal" width="50" height="15"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

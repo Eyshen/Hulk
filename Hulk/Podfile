@@ -1,5 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
+source 'https://github.com/Eyshen/ios-zy-framework-cocoapods-specs.git'
 
 platform :ios, '8.0'
 
@@ -10,25 +11,22 @@ inhibit_all_warnings!
 target :'Hulk' do
 
 pod 'WJAppContext' , '1.0'
-
 pod 'WJCommon' , '1.0'
-
-pod 'WJWebViewJavascriptBridge' , '1.0'
-
+pod 'WJUIRoutable' , '2.0'
 pod 'WJHttpEngineAF', '1.0'
-
 pod 'WJHttpEngineAPI', '1.0'
-
+#pod 'WJNotifyAPI'
+pod 'WJWebViewJavascriptBridge' , '1.0'
+#pod 'WJCoreDataDA'
 pod 'WJLoggingAPI', '1.0'
-
 pod 'UICKeyChainStore' , '2.1.0'
-
 #pod 'WJCacheUserDefaults' , '1.0'
-
 pod 'WJCacheKeychain' , '1.0'
-
-
+pod 'CocoaLumberjack'
+pod 'ZYJSON'
 #######
+
+pod 'QMUIKit' , '2.9.3'
 
 pod 'YYCache', '1.0.3'
 
