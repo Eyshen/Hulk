@@ -12,7 +12,7 @@ target :'Hulk' do
 
 pod 'WJAppContext' , '1.0'
 pod 'WJCommon' , '1.0'
-pod 'WJUIRoutable' , '2.0'
+#pod 'WJUIRoutable' , '2.0'
 pod 'WJHttpEngineAF', '1.0'
 pod 'WJHttpEngineAPI', '1.0'
 #pod 'WJNotifyAPI'
@@ -26,13 +26,15 @@ pod 'CocoaLumberjack'
 pod 'ZYJSON'
 #######
 
+pod 'AvoidCrash' 
+
 pod 'QMUIKit' , '2.9.3'
 
 pod 'YYCache', '1.0.3'
 
 pod 'YYText', '1.0.7'
 
-pod 'Bugly' , '2.4.6'
+#pod 'Bugly' , '2.4.6'
 
 pod 'SSZipArchive' , '1.6.2'
 

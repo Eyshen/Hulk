@@ -89,7 +89,20 @@
 		52BD4AA82189A5620074185E /* ZYUserInfoVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4AA62189A5610074185E /* ZYUserInfoVO.m */; };
 		52BD4AAB218AD6DC0074185E /* UserLoginHttpAPi.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4AAA218AD6DC0074185E /* UserLoginHttpAPi.m */; };
 		52BD4AAE218AD73D0074185E /* UserDetailDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4AAD218AD73D0074185E /* UserDetailDTO.m */; };
-		52BE3A1222436FF600FA73AF /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE3A1122436FF600FA73AF /* QMUIConfigurationTemplate.m */; };
+		52BE3A172244D10100FA73AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A192244D10100FA73AF /* InfoPlist.strings */; };
+		52BE3A232244D72800FA73AF /* image1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A1C2244D72500FA73AF /* image1@2x.png */; };
+		52BE3A242244D72800FA73AF /* image3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A1D2244D72500FA73AF /* image3@2x.png */; };
+		52BE3A252244D72800FA73AF /* image0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A1E2244D72600FA73AF /* image0@2x.png */; };
+		52BE3A262244D72800FA73AF /* image5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A1F2244D72600FA73AF /* image5@2x.png */; };
+		52BE3A272244D72800FA73AF /* image2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A202244D72700FA73AF /* image2@2x.png */; };
+		52BE3A282244D72800FA73AF /* image6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A212244D72800FA73AF /* image6@2x.png */; };
+		52BE3A292244D72800FA73AF /* image4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A222244D72800FA73AF /* image4@2x.png */; };
+		52BE3A2C2244D7EC00FA73AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52BE3A2E2244D7EC00FA73AF /* Localizable.strings */; };
+		52BE3A3D2244E16600FA73AF /* QMUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE3A372244E16400FA73AF /* QMUIConfigurationTemplatePinkRose.m */; };
+		52BE3A3E2244E16600FA73AF /* QDThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE3A382244E16400FA73AF /* QDThemeManager.m */; };
+		52BE3A3F2244E16600FA73AF /* QMUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE3A392244E16500FA73AF /* QMUIConfigurationTemplateGrass.m */; };
+		52BE3A402244E16600FA73AF /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE3A3B2244E16600FA73AF /* QMUIConfigurationTemplate.m */; };
+		52BE3A412244E16600FA73AF /* QMUIConfigurationTemplateGrapefruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE3A3C2244E16600FA73AF /* QMUIConfigurationTemplateGrapefruit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -267,8 +280,31 @@
 		52BD4AAA218AD6DC0074185E /* UserLoginHttpAPi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserLoginHttpAPi.m; sourceTree = "<group>"; };
 		52BD4AAC218AD73D0074185E /* UserDetailDTO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailDTO.h; sourceTree = "<group>"; };
 		52BD4AAD218AD73D0074185E /* UserDetailDTO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailDTO.m; sourceTree = "<group>"; };
-		52BE3A1022436FF600FA73AF /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
-		52BE3A1122436FF600FA73AF /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		52BE3A142244D06400FA73AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		52BE3A182244D10100FA73AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		52BE3A1A2244D10800FA73AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52BE3A1B2244D11900FA73AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52BE3A1C2244D72500FA73AF /* image1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image1@2x.png"; sourceTree = "<group>"; };
+		52BE3A1D2244D72500FA73AF /* image3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image3@2x.png"; sourceTree = "<group>"; };
+		52BE3A1E2244D72600FA73AF /* image0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image0@2x.png"; sourceTree = "<group>"; };
+		52BE3A1F2244D72600FA73AF /* image5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image5@2x.png"; sourceTree = "<group>"; };
+		52BE3A202244D72700FA73AF /* image2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image2@2x.png"; sourceTree = "<group>"; };
+		52BE3A212244D72800FA73AF /* image6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image6@2x.png"; sourceTree = "<group>"; };
+		52BE3A222244D72800FA73AF /* image4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image4@2x.png"; sourceTree = "<group>"; };
+		52BE3A2D2244D7EC00FA73AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		52BE3A2F2244D7EF00FA73AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52BE3A302244D7FA00FA73AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52BE3A322244E16100FA73AF /* QDThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDThemeProtocol.h; sourceTree = "<group>"; };
+		52BE3A332244E16200FA73AF /* QMUIConfigurationTemplateGrapefruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrapefruit.h; sourceTree = "<group>"; };
+		52BE3A342244E16200FA73AF /* QDThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDThemeManager.h; sourceTree = "<group>"; };
+		52BE3A352244E16200FA73AF /* QMUIConfigurationTemplateGrass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrass.h; sourceTree = "<group>"; };
+		52BE3A362244E16300FA73AF /* QMUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
+		52BE3A372244E16400FA73AF /* QMUIConfigurationTemplatePinkRose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplatePinkRose.m; sourceTree = "<group>"; };
+		52BE3A382244E16400FA73AF /* QDThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDThemeManager.m; sourceTree = "<group>"; };
+		52BE3A392244E16500FA73AF /* QMUIConfigurationTemplateGrass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrass.m; sourceTree = "<group>"; };
+		52BE3A3A2244E16500FA73AF /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		52BE3A3B2244E16600FA73AF /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		52BE3A3C2244E16600FA73AF /* QMUIConfigurationTemplateGrapefruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrapefruit.m; sourceTree = "<group>"; };
 		600E1C2BC613CFAE5AE2A9BC /* Pods-Hulk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hulk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hulk/Pods-Hulk.debug.xcconfig"; sourceTree = "<group>"; };
 		9CF309F5265852827909F730 /* libPods-Hulk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hulk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -389,6 +425,8 @@
 				520AFFF021723BE500DAAD2C /* Info.plist */,
 				528D91E92175E63F00FA45A1 /* app-config.plist */,
 				520AFFEB21723BE500DAAD2C /* Assets.xcassets */,
+				52BE3A192244D10100FA73AF /* InfoPlist.strings */,
+				52BE3A2E2244D7EC00FA73AF /* Localizable.strings */,
 				520AFFFB21723FBB00DAAD2C /* Supporting Files */,
 			);
 			path = Hulk;
@@ -405,6 +443,13 @@
 		520AFFFA21723F9900DAAD2C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				52BE3A1E2244D72600FA73AF /* image0@2x.png */,
+				52BE3A1C2244D72500FA73AF /* image1@2x.png */,
+				52BE3A202244D72700FA73AF /* image2@2x.png */,
+				52BE3A1D2244D72500FA73AF /* image3@2x.png */,
+				52BE3A222244D72800FA73AF /* image4@2x.png */,
+				52BE3A1F2244D72600FA73AF /* image5@2x.png */,
+				52BE3A212244D72800FA73AF /* image6@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -677,7 +722,6 @@
 		528D91DD2175B93100FA45A1 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				52BE3A0F22436FF600FA73AF /* QMUIConfigurationTemplate */,
 				528D4E05217734F20027B8B0 /* WJCoreDataDA */,
 				528D4DFB217732960027B8B0 /* WJNotifyAPI */,
 				528D4DF72177318B0027B8B0 /* WJLoggingCocoaLumberjack */,
@@ -689,6 +733,7 @@
 		528D91DE2175B93C00FA45A1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				52BE3A312244E0E500FA73AF /* Configuration */,
 				528D91EB2175EBDC00FA45A1 /* Utils */,
 				528D91F22175ECCD00FA45A1 /* Categorys */,
 				528D91F92175EDA800FA45A1 /* Models */,
@@ -892,15 +937,23 @@
 			path = UserDetail;
 			sourceTree = "<group>";
 		};
-		52BE3A0F22436FF600FA73AF /* QMUIConfigurationTemplate */ = {
+		52BE3A312244E0E500FA73AF /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				52BE3A1022436FF600FA73AF /* QMUIConfigurationTemplate.h */,
-				52BE3A1122436FF600FA73AF /* QMUIConfigurationTemplate.m */,
+				52BE3A342244E16200FA73AF /* QDThemeManager.h */,
+				52BE3A382244E16400FA73AF /* QDThemeManager.m */,
+				52BE3A322244E16100FA73AF /* QDThemeProtocol.h */,
+				52BE3A3A2244E16500FA73AF /* QMUIConfigurationTemplate.h */,
+				52BE3A3B2244E16600FA73AF /* QMUIConfigurationTemplate.m */,
+				52BE3A332244E16200FA73AF /* QMUIConfigurationTemplateGrapefruit.h */,
+				52BE3A3C2244E16600FA73AF /* QMUIConfigurationTemplateGrapefruit.m */,
+				52BE3A352244E16200FA73AF /* QMUIConfigurationTemplateGrass.h */,
+				52BE3A392244E16500FA73AF /* QMUIConfigurationTemplateGrass.m */,
+				52BE3A362244E16300FA73AF /* QMUIConfigurationTemplatePinkRose.h */,
+				52BE3A372244E16400FA73AF /* QMUIConfigurationTemplatePinkRose.m */,
 			);
-			name = QMUIConfigurationTemplate;
-			path = Pods/QMUIKit/QMUIConfigurationTemplate;
-			sourceTree = SOURCE_ROOT;
+			path = Configuration;
+			sourceTree = "<group>";
 		};
 		F1B10360E9CB885B14F14FF3 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -971,8 +1024,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				529E35272186A98100243B57 /* OrdersViewController.xib in Resources */,
+				52BE3A172244D10100FA73AF /* InfoPlist.strings in Resources */,
+				52BE3A262244D72800FA73AF /* image5@2x.png in Resources */,
 				520AFFEF21723BE500DAAD2C /* LaunchScreen.storyboard in Resources */,
 				52066060218B28E10081B54A /* JccLoadingView.xib in Resources */,
+				52BE3A2C2244D7EC00FA73AF /* Localizable.strings in Resources */,
+				52BE3A242244D72800FA73AF /* image3@2x.png in Resources */,
+				52BE3A292244D72800FA73AF /* image4@2x.png in Resources */,
 				528D4E2D217746EE0027B8B0 /* JCCPullRefreshHeaderStateView.xib in Resources */,
 				5276695B217895C000D4F0C8 /* HomeViewController.xib in Resources */,
 				528D91EA2175E64000FA45A1 /* app-config.plist in Resources */,
@@ -980,7 +1038,11 @@
 				520AFFEC21723BE500DAAD2C /* Assets.xcassets in Resources */,
 				529E35222186A97400243B57 /* MineViewController.xib in Resources */,
 				5206605D218B28E10081B54A /* JccLoadingRefreshView.xib in Resources */,
+				52BE3A272244D72800FA73AF /* image2@2x.png in Resources */,
 				5206604C218B08540081B54A /* LoginViewController.xib in Resources */,
+				52BE3A232244D72800FA73AF /* image1@2x.png in Resources */,
+				52BE3A252244D72800FA73AF /* image0@2x.png in Resources */,
+				52BE3A282244D72800FA73AF /* image6@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1036,10 +1098,12 @@
 			files = (
 				5206605F218B28E10081B54A /* JccLoadingView.m in Sources */,
 				527668FE2178594C00D4F0C8 /* JccTabBar.m in Sources */,
+				52BE3A402244E16600FA73AF /* QMUIConfigurationTemplate.m in Sources */,
 				528D92092175EDA800FA45A1 /* AppBaseHttpRequest.m in Sources */,
 				52066055218B1DCC0081B54A /* UserDetailHttpApi.m in Sources */,
 				528D4E22217745F60027B8B0 /* AppBaseTableViewController.m in Sources */,
 				5276695521787ACC00D4F0C8 /* HttpUtils.m in Sources */,
+				52BE3A3E2244E16600FA73AF /* QDThemeManager.m in Sources */,
 				528D4E23217745F60027B8B0 /* AppBaseNavigationController.m in Sources */,
 				527669012178596600D4F0C8 /* AppTabBarViewModel.m in Sources */,
 				5276690C2178597300D4F0C8 /* TabbarIconDTO.m in Sources */,
@@ -1047,6 +1111,7 @@
 				528D91F72175ECCD00FA45A1 /* UIDevice+WJUDID.m in Sources */,
 				52BD4AAB218AD6DC0074185E /* UserLoginHttpAPi.m in Sources */,
 				528D4E2F217746EE0027B8B0 /* JCCPullRefreshHeaderStateView.m in Sources */,
+				52BE3A3F2244E16600FA73AF /* QMUIConfigurationTemplateGrass.m in Sources */,
 				52BD4A9D218993C30074185E /* UserContext.m in Sources */,
 				527668FD2178594C00D4F0C8 /* JccTabBarItem.m in Sources */,
 				5276694A217878C300D4F0C8 /* AppBaseTableCell.m in Sources */,
@@ -1057,6 +1122,7 @@
 				528D4E35217746FA0027B8B0 /* JCCPullRefreshFooterStateView.m in Sources */,
 				527669302178771400D4F0C8 /* FetchH5ConfigAPI.m in Sources */,
 				5276693D2178782800D4F0C8 /* JccDiskCache.m in Sources */,
+				52BE3A412244E16600FA73AF /* QMUIConfigurationTemplateGrapefruit.m in Sources */,
 				528D4E0F217735100027B8B0 /* WJCoreDataManager.m in Sources */,
 				52BD4A9A21898A380074185E /* UserTokenVO.m in Sources */,
 				5276690E2178597300D4F0C8 /* JccTabBarItemAppearance.m in Sources */,
@@ -1100,9 +1166,9 @@
 				520AFFE421723BE400DAAD2C /* AppDelegate.m in Sources */,
 				529E35262186A98100243B57 /* OrdersViewController.m in Sources */,
 				527669122178597700D4F0C8 /* QueryTabbarIconHttpApi.m in Sources */,
-				52BE3A1222436FF600FA73AF /* QMUIConfigurationTemplate.m in Sources */,
 				528D4E34217746FA0027B8B0 /* JCCPullRefreshFooterView.m in Sources */,
 				5276694B217878C300D4F0C8 /* AppBaseView.m in Sources */,
+				52BE3A3D2244E16600FA73AF /* QMUIConfigurationTemplatePinkRose.m in Sources */,
 				52BD4AA82189A5620074185E /* ZYUserInfoVO.m in Sources */,
 				5276695A217895C000D4F0C8 /* HomeViewController.m in Sources */,
 			);
@@ -1115,8 +1181,29 @@
 			isa = PBXVariantGroup;
 			children = (
 				520AFFEE21723BE500DAAD2C /* Base */,
+				52BE3A142244D06400FA73AF /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		52BE3A192244D10100FA73AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BE3A182244D10100FA73AF /* zh-Hans */,
+				52BE3A1A2244D10800FA73AF /* en */,
+				52BE3A1B2244D11900FA73AF /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52BE3A2E2244D7EC00FA73AF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BE3A2D2244D7EC00FA73AF /* zh-Hans */,
+				52BE3A2F2244D7EF00FA73AF /* en */,
+				52BE3A302244D7FA00FA73AF /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1126,6 +1213,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1184,6 +1272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

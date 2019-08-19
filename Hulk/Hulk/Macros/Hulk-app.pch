@@ -20,6 +20,6 @@
 #import "RootVCModuleMacros.h"
 #import "OtherModuleMacros.h"
 #import "UserModuleMacros.h"
-
+#import <QMUIKit/QMUIKit.h>
 #endif
 

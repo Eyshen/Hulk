@@ -6,13 +6,10 @@ PODS:
   - AFNetworking/Reachability (3.1.0)
   - AFNetworking/Security (3.1.0)
   - AFNetworking/Serialization (3.1.0)
-  - Bugly (2.4.6)
-  - CocoaLumberjack (3.4.2):
-    - CocoaLumberjack/Default (= 3.4.2)
-    - CocoaLumberjack/Extensions (= 3.4.2)
-  - CocoaLumberjack/Default (3.4.2)
-  - CocoaLumberjack/Extensions (3.4.2):
-    - CocoaLumberjack/Default
+  - AvoidCrash (2.5.2)
+  - CocoaLumberjack (3.5.2):
+    - CocoaLumberjack/Core (= 3.5.2)
+  - CocoaLumberjack/Core (3.5.2)
   - KKGestureLockView (1.0.0)
   - KVOController (1.1.0)
   - Masonry (1.0.1)
@@ -292,7 +289,7 @@ PODS:
     - WJCommon/Core
     - WJCommon/Utils
     - WJConfig
-  - WJCacheAPI (1.0):
+  - WJCacheAPI (1.0.1):
     - WJCommon/Core
     - WJConfig
     - WJLoggingAPI
@@ -344,16 +341,8 @@ PODS:
     - WJLoggingAPI
   - WJJSON (1.0.1)
   - WJLoggingAPI (1.0)
-  - WJUIRoutable (2.0):
-    - WJUIRoutable/API (= 2.0)
-    - WJUIRoutable/Core (= 2.0)
   - WJUIRoutable/API (2.0):
     - WJConfig
-  - WJUIRoutable/Core (2.0):
-    - WJCommon/Core
-    - WJCommon/Utils
-    - WJLoggingAPI
-    - WJUIRoutable/API
   - WJWebViewJavascriptBridge (1.0):
     - WJConfig
     - WJLoggingAPI
@@ -363,11 +352,11 @@ PODS:
   - ZYJSON (1.0.1)
 
 DEPENDENCIES:
-  - Bugly (= 2.4.6)
+  - AvoidCrash
   - CocoaLumberjack
   - KKGestureLockView (= 1.0.0)
   - KVOController (= 1.1.0)
-  - QMUIKit
+  - QMUIKit (= 2.9.3)
   - SDWebImage/Core (= 3.7.5)
   - SSZipArchive (= 1.6.2)
   - SVProgressHUD (= 2.0.3)
@@ -378,7 +367,6 @@ DEPENDENCIES:
   - WJHttpEngineAF (= 1.0)
   - WJHttpEngineAPI (= 1.0)
   - WJLoggingAPI (= 1.0)
-  - WJUIRoutable (= 2.0)
   - WJWebViewJavascriptBridge (= 1.0)
   - YYCache (= 1.0.3)
   - YYText (= 1.0.7)
@@ -388,7 +376,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - Bugly
+    - AvoidCrash
     - CocoaLumberjack
     - KKGestureLockView
     - KVOController
@@ -419,8 +407,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Bugly: 7756e72c59387b0d490f46e83ab458ae94ee7fba
-  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
+  CocoaLumberjack: 118bf4a820efc641f79fa487b75ed928dccfae23
   KKGestureLockView: b27a33d2fe7995cd3c5e548dab1a8db7947322b8
   KVOController: 321b5fc59300fcaabd42c0f679baa7a27efbb2fd
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
@@ -431,7 +419,7 @@ SPEC CHECKSUMS:
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
   WJAppContext: f450248b915bcbeaa75565ff24f12d21297e8c95
-  WJCacheAPI: 58b939d56dc39ee13469927a493fe08ddf84c38c
+  WJCacheAPI: ca36e768c65529d166069adddf065d5312f84bfa
   WJCacheKeychain: 2ba6fddc35878c22b0b8b86ed9bae83a1f56d9a4
   WJCommon: a8cdeb881e2c6a64022e6e22f3f0952ef5f33862
   WJConfig: 0e7e9046e1a3b722aacac6d5c47c5948c50f6028
@@ -446,6 +434,6 @@ SPEC CHECKSUMS:
   ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
   ZYJSON: fcde6a7a9ee20075ad37502cf5ccbc7da46d9527
 
-PODFILE CHECKSUM: 2baf0fdc1eddc6ff789f4e84891a833da6007c88
+PODFILE CHECKSUM: 618f5bd5f1031c0de947d40fac42829944d73d4f
 
 COCOAPODS: 1.5.3

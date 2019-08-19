@@ -14,7 +14,7 @@
 
 #import "WJCacheFactory.h"
 #import "WJCacheType.h"
-#import "WJLoggingMacros.h"
+#import "WJLoggingAPI.h"
 
 static NSMutableDictionary *wjCacheObjects;
 

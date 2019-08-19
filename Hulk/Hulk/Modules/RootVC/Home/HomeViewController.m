@@ -11,6 +11,7 @@
 
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, weak) UITableView *refTableView;
+@property (nonatomic, weak) QMUIAlertController * refAlert;
 @end
 
 @implementation HomeViewController
@@ -32,14 +33,20 @@
             make.height.mas_equalTo(@(WJ_SCREEN_HEIGHT-64-49));//-34-22
         }];
     }
-    [self.refTableView registerClass:[HomeItemTableViewCell class] forCellReuseIdentifier:@"HomeItemTableViewCell"];
+    [self.refTableView registerNib:[UINib nibWithNibName:@"HomeItemTableViewCell" bundle:nil] forCellReuseIdentifier:@"HomeItemTableViewCell"];
     
     [self.refTableView reloadData];
+    
+    
+    
 }
 #pragma mark UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView selectRowAtIndexPath:indexPath animated:NO scrollPosition:UITableViewScrollPositionNone];
-    
+//    QMUIAlertController *refAlertView =[[QMUIAlertController alloc] initWithTitle:@"提示" message:@"张一(一神)" preferredStyle:QMUIAlertControllerStyleAlert];
+//    [refAlertView addCancelAction];
+//    [refAlertView showWithAnimated:YES];
+//    QMUIAlbumViewController *
 }
 
 #pragma mark UITableViewDataSource
@@ -81,11 +88,6 @@
     HomeItemTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"HomeItemTableViewCell"];
     
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-    
-    UILabel *descLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 375, 100)];
-    descLabel.text = @"cell   cell    cell    cell";
-    descLabel.textAlignment = NSTextAlignmentCenter;
-    [cell.contentView addSubview:descLabel];
     
     return cell;
 }

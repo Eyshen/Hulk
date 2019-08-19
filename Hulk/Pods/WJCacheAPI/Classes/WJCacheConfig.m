@@ -24,7 +24,7 @@ DEF_SINGLETON_INIT(WJCacheConfig)
     _keychainDefaultService = [[NSBundle mainBundle] bundleIdentifier];
     _keychainAccessGroup = @"";
     
-    NSDictionary *config = [[WJConfig sharedInstance] getConfig:@"WJCacheAPI"];
+    NSDictionary *config = [WJConfig dictionaryForKey:@"WJCacheAPI"];
     if ([[config allKeys] containsObject:@"keychainService"]) {
         id o = [config objectForKey:@"keychainService"];
         if ([o isKindOfClass:[NSString class]]) {
